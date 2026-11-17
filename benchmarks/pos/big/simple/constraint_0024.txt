@@ -1,0 +1,10 @@
+Variables and their domains:
+a1_0 : 34..521
+a1_1 : 34..521
+a4_0 : 297,911
+a4_1 : 297,911
+a4_2 : 297,911
+i3 : 463..481
+
+Formula constraint:
+(assert (and (and (=> (< a4_1 -24) (> (+ (- (* 21 i3) 76) (+ -9 a4_2)) i3)) (>= a4_2 a4_2)) (> i3 48)))

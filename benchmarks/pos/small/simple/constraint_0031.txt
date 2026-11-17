@@ -1,0 +1,5 @@
+Variables and their domains:
+a1_0 : 747,852
+
+Formula constraint:
+(assert (not (= a1_0 (* 64 a1_0))))

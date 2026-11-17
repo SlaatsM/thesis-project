@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : -913,-72,284
+
+Formula constraint:
+(assert (=> (and (not (= (* -99 h1_i2) h1_i2)) (and (>= h1_i2 h1_i2) (<= (+ h1_i2 (* 21 h1_i2)) h1_i2))) (> (* -8 h1_i2) h1_i2)))

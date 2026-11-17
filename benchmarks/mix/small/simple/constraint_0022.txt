@@ -1,0 +1,5 @@
+Variables and their domains:
+i1 : 348,645,853,909
+
+Formula constraint:
+(assert (or (and (>= i1 -60) (=> (< i1 i1) (>= (- i1 i1) i1))) (=> (< i1 i1) (or (< (* 58 i1) (- 97 i1)) (<= 91 -19)))))

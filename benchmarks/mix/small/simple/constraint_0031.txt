@@ -1,0 +1,6 @@
+Variables and their domains:
+a1_0 : -318..-53
+i3 : -634..776
+
+Formula constraint:
+(assert (and (and (and (>= -85 a1_0) (<= (* 37 i3) (* 26 i3))) (> (- -29 -76) -73)) (not (not (= (* -84 i3) (* -30 a1_0))))))

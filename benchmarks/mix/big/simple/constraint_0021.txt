@@ -1,0 +1,10 @@
+Variables and their domains:
+a2_0 : -542..21
+a2_1 : -542..21
+a2_2 : -542..21
+a2_3 : -542..21
+a2_4 : -542..21
+i1 : -579..135
+
+Formula constraint:
+(assert (= (- i1 (- 64 a2_0)) (* -98 a2_2)))

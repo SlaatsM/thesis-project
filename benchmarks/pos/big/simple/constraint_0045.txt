@@ -1,0 +1,12 @@
+Variables and their domains:
+a4_0_i6 : 502..744
+a4_1_i6 : 502..744
+a4_2_i6 : 502..744
+a4_3_i6 : 502..744
+a4_4_i6 : 502..744
+i1 : 264..629
+i2 : 315..956
+i3 : 24..296
+
+Formula constraint:
+(assert (not (= i1 i3)))

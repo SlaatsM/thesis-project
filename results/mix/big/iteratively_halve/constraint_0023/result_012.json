@@ -1,0 +1,10 @@
+{
+    "sampler": "iteratively_halve",
+    "benchmark": "constraint_0023",
+    "category": "mix",
+    "subset": "big",
+    "run_id": 12,
+    "number_models": 0,
+    "runtime_seconds": 68.52535392900063,
+    "models": []
+}

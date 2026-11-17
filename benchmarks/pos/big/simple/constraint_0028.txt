@@ -1,0 +1,7 @@
+Variables and their domains:
+h1_h2_a3_0 : 612..762
+h1_h2_a3_1 : 612..762
+h1_h2_a3_2 : 612..762
+
+Formula constraint:
+(assert (and (or (not (>= (- 69 -79) h1_h2_a3_1)) (not (<= h1_h2_a3_2 h1_h2_a3_0))) (> h1_h2_a3_0 h1_h2_a3_2)))

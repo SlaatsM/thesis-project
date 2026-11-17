@@ -1,0 +1,7 @@
+Variables and their domains:
+a1_0 : -998,-903
+a1_1 : -998,-903
+a1_2 : -998,-903
+
+Formula constraint:
+(assert (<= a1_0 a1_2))

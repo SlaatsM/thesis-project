@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : 3,426,547,561
+
+Formula constraint:
+(assert (< h1_i2 8))

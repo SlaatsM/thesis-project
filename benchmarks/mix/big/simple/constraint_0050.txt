@@ -1,0 +1,10 @@
+Variables and their domains:
+a1_0 : 681,787
+a1_1 : 681,787
+a1_2 : 681,787
+a1_3 : 681,787
+a1_4 : 681,787
+a1_5 : 681,787
+
+Formula constraint:
+(assert (> a1_0 31))

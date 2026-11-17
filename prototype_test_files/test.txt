@@ -1,0 +1,7 @@
+Variables and their domains:
+x : 0..100
+y : 0..100
+z : 0..100
+
+Formula constraint:
+(assert (and (= z (+ x 85)) (and (>= y (+ x 18)) (and (<= y (+ x 65)) (> z y)))))

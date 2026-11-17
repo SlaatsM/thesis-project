@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : 322,452,659,777,970
+
+Formula constraint:
+(assert (=> (and (<= h1_i2 (+ h1_i2 h1_i2)) (>= h1_i2 53)) (< 76 h1_i2)))

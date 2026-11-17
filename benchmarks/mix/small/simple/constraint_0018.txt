@@ -1,0 +1,6 @@
+Variables and their domains:
+a1_0 : -34,629,799
+a1_1 : -34,629,799
+
+Formula constraint:
+(assert (<= a1_0 a1_1))

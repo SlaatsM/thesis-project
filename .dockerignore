@@ -1,0 +1,11 @@
+.venv/
+.git/
+__pycache__/
+*.py[cod]
+prototype_test_files/
+seed_shim/*.so
+external/z3/build/
+external/z3/src/util/z3_version.h
+external/MeGASampler/*.o
+external/MeGASampler/*.d
+external/MeGASampler/megasampler

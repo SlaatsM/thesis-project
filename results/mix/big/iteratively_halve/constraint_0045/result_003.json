@@ -1,0 +1,28 @@
+{
+    "sampler": "iteratively_halve",
+    "benchmark": "constraint_0045",
+    "category": "mix",
+    "subset": "big",
+    "run_id": 3,
+    "number_models": 1,
+    "runtime_seconds": 84.79741958900013,
+    "models": [
+        {
+            "h2_h4_a6_0": 71,
+            "h2_h4_a6_1": -80,
+            "h2_h4_a6_2": -134,
+            "h2_h4_a6_3": 40,
+            "h2_h4_a6_4": -343,
+            "h2_h4_i8": -936,
+            "h2_h9_a11_0": -67,
+            "h2_h9_a11_1": -10,
+            "h2_h9_a11_2": -95,
+            "h2_h9_a11_3": -88,
+            "h2_h9_a11_4": -103,
+            "h2_h9_i10": 384,
+            "h2_h9_i13": -359,
+            "h2_i3": -333,
+            "i1": -4
+        }
+    ]
+}

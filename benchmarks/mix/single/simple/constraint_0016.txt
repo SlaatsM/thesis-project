@@ -1,0 +1,5 @@
+Variables and their domains:
+i1 : -842,-577,-352,537
+
+Formula constraint:
+(assert (> 12 (* -17 i1)))

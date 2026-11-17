@@ -1,0 +1,8 @@
+Variables and their domains:
+a2_0 : 193,875
+a2_1 : 193,875
+a2_2 : 193,875
+i1 : 712..722
+
+Formula constraint:
+(assert (and (=> (not (< a2_1 a2_0)) (= 43 -16)) (<= -84 (* 24 a2_1))))

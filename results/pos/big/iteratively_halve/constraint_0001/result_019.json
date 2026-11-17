@@ -1,0 +1,10 @@
+{
+    "sampler": "iteratively_halve",
+    "benchmark": "constraint_0001",
+    "category": "pos",
+    "subset": "big",
+    "run_id": 19,
+    "number_models": 0,
+    "runtime_seconds": 105.63686318300097,
+    "models": []
+}

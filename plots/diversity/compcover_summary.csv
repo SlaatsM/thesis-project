@@ -1,0 +1,7 @@
+sampler,mean,std,count
+blocking,0.62,0.226,762
+bound_rejection,0.89,0.214,762
+csb,0.997,0.021,762
+gprolog,0.905,0.206,382
+iteratively_halve,0.925,0.185,669
+megasampler,0.43,0.262,762

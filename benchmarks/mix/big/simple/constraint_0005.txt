@@ -1,0 +1,5 @@
+Variables and their domains:
+i4 : 312..785
+
+Formula constraint:
+(assert (=> (not (= i4 i4)) (< 72 (- 57 (- 90 i4)))))

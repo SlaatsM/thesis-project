@@ -1,0 +1,6 @@
+Variables and their domains:
+a1_0 : -900,-410,-119,127,976
+i3 : -667,-265,-142,180,961
+
+Formula constraint:
+(assert (<= i3 i3))

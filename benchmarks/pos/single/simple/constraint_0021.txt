@@ -1,0 +1,7 @@
+Variables and their domains:
+i1 : 26,145,567
+i2 : 189,465
+i3 : 87..289
+
+Formula constraint:
+(assert (not (and (< -50 37) (not (= i3 (+ i2 (+ i1 -24)))))))

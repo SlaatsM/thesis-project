@@ -1,0 +1,16 @@
+category,subset,sampler,constraint_num,n_runs_excluded,n_runs_timed_out
+mix,big,bound_rejection,23,20,17
+mix,big,iteratively_halve,12,20,20
+mix,big,iteratively_halve,16,20,20
+mix,big,iteratively_halve,21,20,20
+mix,big,iteratively_halve,23,20,20
+mix,big,iteratively_halve,35,20,20
+mix,big,iteratively_halve,41,20,20
+mix,big,iteratively_halve,45,20,20
+pos,big,iteratively_halve,1,20,20
+pos,big,iteratively_halve,10,20,1
+pos,big,iteratively_halve,20,20,2
+pos,big,iteratively_halve,21,20,20
+pos,big,iteratively_halve,25,20,20
+pos,big,iteratively_halve,27,20,20
+pos,big,iteratively_halve,37,20,20

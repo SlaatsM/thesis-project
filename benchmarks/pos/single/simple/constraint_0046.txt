@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : 26,392
+
+Formula constraint:
+(assert (< (- 63 -50) (- (+ h1_i2 h1_i2) h1_i2)))

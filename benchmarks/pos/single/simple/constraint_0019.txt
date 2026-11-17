@@ -1,0 +1,6 @@
+Variables and their domains:
+a2_0 : 380,784
+i1 : 228,259,446
+
+Formula constraint:
+(assert (<= a2_0 i1))

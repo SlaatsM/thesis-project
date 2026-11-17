@@ -1,0 +1,5 @@
+Variables and their domains:
+a1_0 : -298,113,617
+
+Formula constraint:
+(assert (=> (<= a1_0 a1_0) (>= (* -8 a1_0) -86)))

@@ -1,0 +1,7 @@
+Variables and their domains:
+h2_a3_0 : 206..213
+i1 : 162,185,691..884
+i7 : 42..722
+
+Formula constraint:
+(assert (> i7 h2_a3_0))

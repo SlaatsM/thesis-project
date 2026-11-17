@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Compiled seed shim
+seed_shim/*.so
+
+# External z3 version file
+external/z3/src/util/z3_version.h

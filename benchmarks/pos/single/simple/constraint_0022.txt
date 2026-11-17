@@ -1,0 +1,7 @@
+Variables and their domains:
+a1_0 : 288,610,907
+a1_1 : 288,610,907
+a1_2 : 288,610,907
+
+Formula constraint:
+(assert (and (not (= -35 (* 79 a1_0))) (or (not (< (- a1_1 a1_0) (+ a1_0 a1_2))) (= (* 9 a1_2) a1_1))))

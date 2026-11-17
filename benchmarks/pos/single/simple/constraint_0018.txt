@@ -1,0 +1,6 @@
+Variables and their domains:
+h1_i2 : 134..144,913
+i3 : 253,300..923
+
+Formula constraint:
+(assert (or (= h1_i2 i3) (= -81 i3)))

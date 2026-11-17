@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : -629,-618,-571,579,818
+
+Formula constraint:
+(assert (>= h1_i2 h1_i2))

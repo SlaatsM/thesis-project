@@ -1,0 +1,5 @@
+Variables and their domains:
+i1 : 104,117,703
+
+Formula constraint:
+(assert (not (and (>= (- i1 i1) i1) (> 65 i1))))

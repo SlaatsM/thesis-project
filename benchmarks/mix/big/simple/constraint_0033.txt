@@ -1,0 +1,9 @@
+Variables and their domains:
+h3_i4 : -786,510,605,790
+h3_i5 : 71..977
+h3_i6 : -462..944
+i1 : -20..511
+i2 : 340,726,833
+
+Formula constraint:
+(assert (< i2 h3_i4))

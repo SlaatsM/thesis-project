@@ -1,0 +1,10 @@
+Variables and their domains:
+h2_a3_0 : 63..402
+h2_a3_1 : 63..402
+h2_a3_2 : 63..402
+h2_a3_3 : 63..402
+h2_a3_4 : 63..402
+i1 : -837..52
+
+Formula constraint:
+(assert (not (and (=> (> h2_a3_0 (+ (* 46 h2_a3_3) h2_a3_1)) (< -66 (+ 57 -9))) (> h2_a3_0 h2_a3_0))))

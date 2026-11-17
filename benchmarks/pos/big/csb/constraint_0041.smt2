@@ -1,0 +1,48 @@
+(set-logic QF_BV)
+
+; Bit width chosen: 12 (covers range [-125, 1043] found in domains and all intermediate sub-expressions, so prevents wraparound)
+
+; Variable declarations
+(declare-const h2_a5_0 (_ BitVec 12))
+(declare-const h2_a5_1 (_ BitVec 12))
+(declare-const h2_a5_2 (_ BitVec 12))
+(declare-const h2_a5_3 (_ BitVec 12))
+(declare-const h2_a5_4 (_ BitVec 12))
+(declare-const h2_i3 (_ BitVec 12))
+(declare-const h2_i4 (_ BitVec 12))
+(declare-const h2_i7 (_ BitVec 12))
+(declare-const h8_h10_a11_0 (_ BitVec 12))
+(declare-const h8_h10_a11_1 (_ BitVec 12))
+(declare-const h8_h10_a11_2 (_ BitVec 12))
+(declare-const h8_h10_a11_3 (_ BitVec 12))
+(declare-const h8_h10_a11_4 (_ BitVec 12))
+(declare-const h8_h10_a15_0 (_ BitVec 12))
+(declare-const h8_h10_i14 (_ BitVec 12))
+(declare-const h8_i17 (_ BitVec 12))
+(declare-const h8_i9 (_ BitVec 12))
+(declare-const i1 (_ BitVec 12))
+
+; Domain constraints
+(assert (or (= h2_a5_0 #b000011010111) (= h2_a5_0 #b000100101001) (= h2_a5_0 #b000111001111) (= h2_a5_0 #b000111011010)))
+(assert (or (= h2_a5_1 #b000011010111) (= h2_a5_1 #b000100101001) (= h2_a5_1 #b000111001111) (= h2_a5_1 #b000111011010)))
+(assert (or (= h2_a5_2 #b000011010111) (= h2_a5_2 #b000100101001) (= h2_a5_2 #b000111001111) (= h2_a5_2 #b000111011010)))
+(assert (or (= h2_a5_3 #b000011010111) (= h2_a5_3 #b000100101001) (= h2_a5_3 #b000111001111) (= h2_a5_3 #b000111011010)))
+(assert (or (= h2_a5_4 #b000011010111) (= h2_a5_4 #b000100101001) (= h2_a5_4 #b000111001111) (= h2_a5_4 #b000111011010)))
+(assert (or (= h2_i3 #b000000110010) (= h2_i3 #b000011111101) (= h2_i3 #b001000111010)))
+(assert (and (bvsge h2_i4 #b000001110101) (bvsle h2_i4 #b000111001110)))
+(assert (and (bvsge h2_i7 #b001101101000) (bvsle h2_i7 #b001110010101)))
+(assert (and (bvsge h8_h10_a11_0 #b000110000001) (bvsle h8_h10_a11_0 #b001100000010)))
+(assert (and (bvsge h8_h10_a11_1 #b000110000001) (bvsle h8_h10_a11_1 #b001100000010)))
+(assert (and (bvsge h8_h10_a11_2 #b000110000001) (bvsle h8_h10_a11_2 #b001100000010)))
+(assert (and (bvsge h8_h10_a11_3 #b000110000001) (bvsle h8_h10_a11_3 #b001100000010)))
+(assert (and (bvsge h8_h10_a11_4 #b000110000001) (bvsle h8_h10_a11_4 #b001100000010)))
+(assert (and (bvsge h8_h10_a15_0 #b000000000101) (bvsle h8_h10_a15_0 #b000101010001)))
+(assert (and (bvsge h8_h10_i14 #b001001000010) (bvsle h8_h10_i14 #b001111010000)))
+(assert (and (bvsge h8_i17 #b000010011101) (bvsle h8_i17 #b000010011111)))
+(assert (and (bvsge h8_i9 #b001010110001) (bvsle h8_i9 #b001100001001)))
+(assert (and (bvsge i1 #b001010001001) (bvsle i1 #b001100010001)))
+
+; Formula constraint
+(assert (bvsgt (bvsub (bvadd h8_h10_i14 #b000001000011) h8_h10_a11_2) h8_h10_a15_0))
+
+(check-sat)

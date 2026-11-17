@@ -1,0 +1,17 @@
+(set-logic QF_LIA)
+(set-option :produce-models true)
+
+; Variable name mapping (original -> sanitized)
+;   i1
+
+; Variable declarations
+(declare-fun i1 () Int)
+
+; Domain constraints
+(assert (or (= i1 -157) (= i1 962)))
+
+; Formula constraint
+(assert (=> (and (not (>= (+ (- (* -53 i1) (* 22 i1)) 74) (* 6 i1))) (and (>= i1 39) (<= i1 (* -66 i1)))) (and (and (> i1 (* -49 i1)) (< (* 42 i1) 50)) (<= -74 (+ -57 (+ i1 i1))))))
+
+(check-sat)
+(get-model)

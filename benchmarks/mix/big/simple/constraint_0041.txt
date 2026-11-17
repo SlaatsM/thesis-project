@@ -1,0 +1,9 @@
+Variables and their domains:
+a1_0_0 : -988..27
+a1_0_1 : -988..27
+a1_0_2 : -988..27
+a1_0_3 : -988..27
+a1_0_4 : -988..27
+
+Formula constraint:
+(assert (not (not (and (<= 21 a1_0_1) (< (- a1_0_3 a1_0_4) a1_0_3)))))

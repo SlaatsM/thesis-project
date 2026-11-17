@@ -1,0 +1,6 @@
+Variables and their domains:
+h1_i2 : -29,439
+i3 : -482,171,304,357,799
+
+Formula constraint:
+(assert (not (or (or (<= h1_i2 (+ (+ (* 24 h1_i2) (* 27 i3)) (- 26 h1_i2))) (< i3 (* 28 h1_i2))) (and (<= (+ h1_i2 38) (* 46 i3)) (> (* 63 i3) 98)))))

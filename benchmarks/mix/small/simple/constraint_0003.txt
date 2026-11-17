@@ -1,0 +1,6 @@
+Variables and their domains:
+h1_i2 : -627,230,303
+h1_i3 : -296,935
+
+Formula constraint:
+(assert (=> (not (= 40 35)) (=> (and (<= 34 -46) (> -10 h1_i2)) (< (- (* -5 h1_i2) (* -11 h1_i3)) h1_i3))))

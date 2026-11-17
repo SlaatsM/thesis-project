@@ -1,0 +1,6 @@
+Variables and their domains:
+a1_0 : -697,-257,-219,895
+a1_1 : -697,-257,-219,895
+
+Formula constraint:
+(assert (not (=> (not (<= 36 (* -20 a1_1))) (and (>= (* 1 a1_1) (+ (* 55 a1_0) (+ a1_0 a1_1))) (not (= 68 a1_0))))))

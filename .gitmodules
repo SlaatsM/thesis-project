@@ -1,0 +1,6 @@
+[submodule "external/z3"]
+	path = external/z3
+	url = https://github.com/chaosite/z3.git
+[submodule "external/MeGASampler"]
+	path = external/MeGASampler
+	url = https://github.com/chaosite/MeGASampler.git

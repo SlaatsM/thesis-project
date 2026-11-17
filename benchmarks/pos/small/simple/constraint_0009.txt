@@ -1,0 +1,5 @@
+Variables and their domains:
+h1_i2 : 668..681
+
+Formula constraint:
+(assert (and (< 49 (* 83 h1_i2)) (not (= -38 3))))

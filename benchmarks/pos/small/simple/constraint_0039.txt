@@ -1,0 +1,5 @@
+Variables and their domains:
+i1 : 376,525
+
+Formula constraint:
+(assert (<= i1 (* 80 i1)))
